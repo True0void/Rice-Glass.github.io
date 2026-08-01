@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+}
+
+/* Le fond Vanta */
+#vanta-bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Ajout du point "." devant logo et conversion des cm en px */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.subject {
+  text-align: center;
+  position: relative;
+  color: blueviolet;
+  z-index: 1;
+}
+
+.subject ul {
+  list-style: none; /* Enlève les puces noires des <li> */
+  padding: 0;
+}
+
+.i3 {
+  height: 400px;
+  border-radius: 10px;
+}
+
+.i32 {
+  margin-top: 50px;
+  height: 400px;
+  border-radius: 10px;
+}
